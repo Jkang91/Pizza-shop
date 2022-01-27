@@ -1,5 +1,6 @@
 class PizzasController < ApplicationController 
-
+    protect_from_forgery with: :null_session
+    
     def index
         pizzas = Pizza.all
 
@@ -30,7 +31,7 @@ class PizzasController < ApplicationController
         end
     end
 
-    def update
+    def destroy
         pizza = Pizza.find_by(params[:id])
 
         if pizza.destroy
