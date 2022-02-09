@@ -1,10 +1,13 @@
 import React from "react";
+import Nav from "./Navbar";
+import DisplayContainer from './DisplayContainer';
 
 function App() {
   return (
-      <>
-        <h1>Hello</h1>
-      </>
+    <>
+      <Nav />
+      <DisplayContainer />
+    </>
   );
 }
 
