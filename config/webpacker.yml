@@ -20,7 +20,6 @@ default: &default
 
   static_assets_extensions:
     - .jpg
-    - .jsx
     - .jpeg
     - .png
     - .gif
@@ -35,8 +34,8 @@ default: &default
 
   extensions:
     - .mjs
-    - .jsx
     - .js
+    - .jsx
     - .sass
     - .scss
     - .css
