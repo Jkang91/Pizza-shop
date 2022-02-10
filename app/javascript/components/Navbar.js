@@ -7,7 +7,7 @@ function Navbar() {
 
   return (
     <div>
-      <NavLink to="/pizzas">Pizzas</NavLink>
+      This is the Nav bar
     </div>
   );
 }

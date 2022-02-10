@@ -1,9 +1,11 @@
 import React from 'react';
 
 function WelcomePage() {
-  return <div>
+  return (
+  <div>
       This is a welcome page.
-  </div>;
+  </div>
+  );
 }
 
 export default WelcomePage;
