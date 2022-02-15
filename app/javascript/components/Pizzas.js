@@ -5,10 +5,10 @@ function Pizzas({pizzas}) {
     
     console.log(pizzas)
     const diff_pizzas = pizzas.map((pizza) => {
-        return <Pizza pizza={pizza}/>
+        return <Pizza key={pizza.id} pizza={pizza}/>
     })
   return (
-  <div>
+  <div className="pizza-container">
       {diff_pizzas}
   </div>
   );
