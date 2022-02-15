@@ -1,8 +1,9 @@
 import React from 'react';
+import "../App.css";
 
 function WelcomePage() {
   return (
-  <div>
+  <div className="welcome">
       This is a welcome page.
   </div>
   );

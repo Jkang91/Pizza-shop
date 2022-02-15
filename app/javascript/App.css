@@ -1,0 +1,20 @@
+body {
+  text-align: center;
+}
+
+.display-container {
+    padding: 20em;
+}
+
+.welcome {
+  font-size: 12em;
+}
+
+.nav-bar {
+  display: flex;
+  float: right;
+}
+
+.link {
+    padding: 2em;
+}
