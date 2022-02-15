@@ -1,13 +1,14 @@
-import React from 'react';
+import React from "react";
 
-function Pizza(props) {
+function Pizza(pizza) {
+  console.log(pizza.pizza);
   return (
-  <div>
-      {props.data.image_url}
-      Name: {props.data.name}
-      Price: {props.data.price}
-      Description: {props.data.description}
-  </div>
+    <div>
+      {pizza.pizza.image_url}
+      <div>Name: {pizza.pizza.name}</div>
+      <div>Price: {pizza.pizza.price}</div>
+      <div>Description: {pizza.pizza.description}</div>
+    </div>
   );
 }
 

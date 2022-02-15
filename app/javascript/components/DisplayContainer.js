@@ -13,8 +13,8 @@ function DisplayContainer() {
     axios
       .get("/pizzas.json")
       .then((resp) => {
-        setPizzas(resp);
-        console.log(resp);
+        setPizzas(resp.data);
+        console.log(resp.data);
       })
       .catch((resp) => console.log(resp));
   }, []);

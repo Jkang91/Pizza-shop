@@ -1,7 +1,7 @@
 import React from 'react';
 import Pizza from './Pizza';
 
-function Pizzas(pizzas) {
+function Pizzas({pizzas}) {
     
     console.log(pizzas)
     const diff_pizzas = pizzas.map((pizza) => {
